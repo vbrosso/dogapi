@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOG API - Enext</title>
+</head>
+<body>
+    <section class="container">
+        <h2 class="labelEscolha">Escolha a raça do seu cãozinho</h2>
+        <nav class="navegation">
+            <div class="row">
+                <div class="select">
+                    <select id="raca"><option selected>---</option></select>
+                </div>
+                <div class="select">
+                    <select id="subraca"><option selected>---</option></select>
+                </div> 
+            </div>
+            <h2 class="labelEscolha">Escolha a cor e fonte</h2>
+            <div class="row">
+                <div class="select">
+                    <select id="coresNome">
+                        <option>---</option>
+                        <option>Preto</option>
+                        <option>Azul</option>
+                        <option>Vermelho</option>
+                        <option>Verde</option>
+                        <option>Rosa</option>
+                    </select>
+                </div>
+                <div class="select">
+                    <select id="fonteFamily">
+                        <option>---</option>
+                        <option>Trade Winds</option>
+                        <option>Anton</option>
+                        <option>Pacifico</option>
+                        <option>Acme</option>
+                        <option>Fredoka One</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <input type="text" class="inputname" data-bind="textInput: myName" placeholder="Digite o nome do seu dog" />
+            </div>
+        </nav>
+        <section class="fotonome">
+            <div class="photo">
+                <h3 id="nameDog" data-bind="text: myName" alt="cor"></h3>
+                <img id="dogImage" src="" width="300" alt="Imagem do seu cachorro">
+            </div>           
+            <span class="mensagemSucesso">Dados salvos com sucesso</span> 
+            <button type="button" id="btnSalvar">Salvar</button>
+        </section>
+
+    </section>
+</body>
+</html>
