@@ -1,7 +1,7 @@
 # dogapi
 Consumo de api pública com todas as raças de cachorros
 
-# Faça download do projeto ou pelo git clone o projeto:
+# Faça download do projeto ou clone pelo git:
 git clone https://github.com/vbrosso/dogapi.git
 
 # Navegue até o diretório da aplicação clonada
