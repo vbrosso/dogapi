@@ -24,7 +24,7 @@
     "knockout": "3.5.0"
   },
   "devDependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "knockout": "^3.5.1",
     "node-sass": "^4.13.1",
     "sass-loader": "^8.0.2",
